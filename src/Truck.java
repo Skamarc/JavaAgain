@@ -2,7 +2,7 @@ public class Truck implements vehicle {
 
     @Override
     public void jazda(int speed) {
-        System.out.println("Jade ciezarowka z prednoscia " +  speed);=
+        System.out.println("Jade ciezarowka z prednoscia " +  speed);
     }
 
     @Override

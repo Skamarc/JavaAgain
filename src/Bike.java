@@ -13,4 +13,9 @@ public class Bike implements vehicle {
         System.out.println("Hamuje rowerem");
 
     }
+
+    @Override
+    public String info() {
+        return null;
+    }
 }
