@@ -1,0 +1,2 @@
+public class CheckedExceptions2 {
+}
