@@ -15,11 +15,16 @@ public class StudentChecker {
         String uczelniaAdama = adam.nazwaUczelni;
 
         Student kasia = new Student();
-        adam.imie = "Kasia";
-        adam.nick = "Test";
-        adam.email = "Test@test.com";
-        adam.nazwisko = "Kasiowska";
-        adam.numerIndexu = 12345;
+        kasia.imie = "Kasia";
+        kasia.nick = "Test";
+        kasia.email = "Test@test.com";
+        kasia.nazwisko = "Kasiowska";
+        kasia.numerIndexu = 12345;
+
+        Student Marcel = new Student("marcel", "marcel", 1);
+        Marcel.Dane();
+
+        adam.Dane();
     }
 
 }

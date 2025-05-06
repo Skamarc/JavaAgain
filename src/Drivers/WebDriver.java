@@ -1,10 +1,7 @@
 package Drivers;
 
-public interface Webdriver {
+public interface WebDriver {
 
     void get();
     void findElementBy();
-
-
-
 }

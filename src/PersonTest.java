@@ -7,6 +7,7 @@ public class PersonTest {
         teacher.eat();
         teacher.teachMath();
         teacher.sayHello();
+        teacher.cimcimrimcim();
 // --------------------------------
         Footballer footballer = new Footballer("Mike", 40, "huwdu");
 
@@ -14,5 +15,7 @@ public class PersonTest {
         footballer.eat();
         footballer.playFootbal();
         footballer.FuckYourCarier();
+        footballer.cimcimrimcim();
+
     }
 }

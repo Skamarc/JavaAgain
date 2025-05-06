@@ -4,10 +4,16 @@ public class FinalTest {
         final int x = 2;
 
 
-        final Person person = new Person("Tim", 26) ;
-        person.age = 26;
+        final Person person =  new Person("Marek", 12);
+        person.age = 25;
 
 
 
+
+        }
     }
-}
+
+
+
+
+

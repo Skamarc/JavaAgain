@@ -7,7 +7,6 @@ public class Person {
 
     public Person(String name, int age){
         System.out.println("Jestem w konstruktorze person");
-
         this.name = name;
         this.age = age;
     }
@@ -20,5 +19,8 @@ public class Person {
         System.out.println("I like walking - retest");
     }
 
+    public void cimcimrimcim(){
+        System.out.println("Cimcimrimcim to jest to, w wieku " + age);
+    }
 
 }

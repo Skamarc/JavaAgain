@@ -1,6 +1,6 @@
 package docs;
 
-public interface Document {
+public interface Dokument {
 
     void getDescription();
 

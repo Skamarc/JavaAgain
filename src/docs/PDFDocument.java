@@ -1,8 +1,8 @@
 package docs;
 
-public class PDFDocument implements Document {
+public class PDFDocument implements Dokument{
     @Override
     public void getDescription() {
-        System.out.println("Im PFD Document");
+        System.out.println("Im PDF document");
     }
 }

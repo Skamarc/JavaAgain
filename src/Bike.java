@@ -1,21 +1,24 @@
-public class Bike implements vehicle {
+public class Bike implements Vehicle {
 
 
     @Override
     public void jazda(int speed) {
-        System.out.println("Jade Rowerem z predkoscia " + speed);
-
+        System.out.println("jade rowerem z predkoscia " + speed);
 
     }
 
     @Override
     public void stop() {
-        System.out.println("Hamuje rowerem");
+        System.out.println("hamuje rowerem  ");
 
     }
 
     @Override
     public String info() {
-        return null;
+        return "rower";
+    }
+
+    public  void zatankuj(){
+        System.out.println(" aby miec duzo sily musze cos zjesc");
     }
 }

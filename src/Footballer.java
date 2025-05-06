@@ -4,6 +4,7 @@ public class Footballer extends Person {
 
     public Footballer(String name, int age, String footballClub) {
         super(name, age);
+        this.footballClub = footballClub;
         System.out.println("jestem w konstruktorze Footballer");
     }
 
@@ -21,6 +22,11 @@ public class Footballer extends Person {
 
         System.out.println("I am playing football");
     }
+
+    public void cimcimrimcim(){
+        System.out.println("Tylko piłka a nie głupoty");
+    }
+
 
     public void FuckYourCarier(){
         System.out.println("Nah, bro, you are finished");
