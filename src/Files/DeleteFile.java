@@ -10,7 +10,7 @@ public class DeleteFile {
         if(file.delete()){
             System.out.println("Usunelismy plik");
         } else {
-            System.out.println("Nie udalo sike usunac pliku");
+            System.out.println("Nie udalo sie usunac pliku");
         }
 
     }
