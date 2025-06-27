@@ -5,7 +5,7 @@ public class CheckedExceptions {
     public static void main(String[] args) {
         try {
             System.out.println("Before reading file");
-            readFile("C:\\Users\\M-ska\\Desktop\\IT\\Repozytoria\\Java kurs\\src\\test.txt");
+            readFile("C:\\Users\\Oboje\\IdeaProjects\\JavaAgain\\src\\tes1t.txt");
 
 
         } catch (FileNotFoundException e) {
