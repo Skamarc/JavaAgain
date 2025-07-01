@@ -2,7 +2,7 @@ package lambda;
 
 @FunctionalInterface
 public interface Student {
-    boolean sayHello(String name, int age);
+    void sayHello(String name, int age);
 
 
 }

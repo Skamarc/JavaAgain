@@ -19,7 +19,7 @@ public class StreamTest {
         DoubleStream doubleStream = DoubleStream.of(3,3,2,1,2,4);
         IntStream intStream = IntStream.range(1,100);
 
-        //prrzetwarzanie danych
+        //przetwarzanie danych
         //filter - filtrowanie
         //map - zmiana elementu na cos innego(brac jakies liczby i zwiekszac je dwu krotnie)
         // limit - zwraca nam okreslona liczbe elementow
@@ -39,8 +39,9 @@ public class StreamTest {
 
        long count = intStream.filter(el -> el>20)
                 .map(el ->el*2)
-             
+                .limit(10)
                 .count();
+
 
         System.out.println(count);
 }}
